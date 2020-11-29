@@ -97,6 +97,7 @@ color: #000000;
 }
 .navigation {
   display: flex;
+  align-items: center;
 }
 .navigation-list {
   display: flex;
@@ -133,29 +134,32 @@ padding-right: 15px;
 background-color: #2F303A;
 max-width: 1600px;
 min-height: 600px;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-display: flex;
 justify-content: center;
+text-align: center;
 align-items: center;
 }
 .main-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1, 363;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
+font-weight: 900;
+font-size: 44px;
+line-height: 1, 363;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #ffffff;
+margin-bottom: 30px;
 }
 
+.button {
+justify-content: center;
+text-align: center;
+align-items: center:
+}
 .modal-btn {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 875;
   letter-spacing: 0.06em;
-  color: #ffffff; 
+  color: #ffffff;
 }
 /* =============== end title ===============*/
 
