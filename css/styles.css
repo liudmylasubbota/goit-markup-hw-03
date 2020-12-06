@@ -335,7 +335,8 @@ background: #2F303A;
 /* ===============portfolio page ===============*/
 .filtr-btn:hover,
 .filtr-btn:focus {
-  color: var(--accent-color)
+  background: var(--accent-color);
+  color: #FFFFFF
 }
 
 .button-item {
