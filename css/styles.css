@@ -54,6 +54,11 @@ img{
   display: block;
   max-width: 100%;
 }
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: auto;
+}
 /* ===============end specification===============*/
 /* =============== HEADER ===============*/
 .logo{
@@ -118,17 +123,18 @@ color: #000000;
 .contact-header-mail {
   margin-right: 50px;
 }
-.header.container {
+.header .container {
 display: flex;
-max-width:1200px;
-min-height:80px;
+width:1200px;
 align-items: center;
 margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
+padding-top: 24px;
+padding-bottom: 24px;
 border-bottom: 1px solid #ECECEC;
 }
-/* =============== end header ===============*/
+/* =============== end header =
 /* =============== title ===============*/
 
 .hero {
@@ -185,8 +191,8 @@ border-bottom: 1px solid #ECECEC;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .features {
   display: flex;
@@ -218,11 +224,14 @@ color: #757575;
 }
 /* =============== end features ===============*/
 /* =============== tasks ===============*/
+.our-task{
+  margin-bottom: 97px;
+}
 .task-container {
   width: 376px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .task-item {
   display: flex;
@@ -253,7 +262,6 @@ color: #212121;
 
 .team-section {
   background: #F5F4FA;
-  margin-top: 94px;
 }
 .team-container {
   width: 1200px;
@@ -265,7 +273,7 @@ color: #212121;
 }
 .team-item-list:not(:last-child) {
   margin-right: 30px;
-  margin-bottom: 94px;
+  padding-bottom: 211px;
 }
 .team-name {  
 font-weight: 500;
@@ -273,6 +281,7 @@ font-size: 16px;
 line-height:1,187;
 letter-spacing: 0.03em;
 color: #212121;
+margin-bottom: 10px;
 }
 .team-designation{
 font-weight: 400;
@@ -288,14 +297,10 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-margin-top: 94px;
-margin-bottom: 50px;
+padding-bottom: 50px;
 }
 .team-wrapper {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 59px;
-  padding-right: 59px;
+  padding: 30px 10px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -325,10 +330,10 @@ background: #2F303A;
 .footer-container{
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
 }
 .footer-list-item {
-  margin-bottom: 9px;
+margin-top: 9px;
+margin-bottom: 9px;
 }
 /* ===============end footer===============*/
 
@@ -382,10 +387,6 @@ border: none;
   margin-bottom: 30px;
   border: 1px solid #ECECEC;
 }
-.portfolio-list-item:nth-child(3n){
-  margin-right: 0;
-}
-
 .portfolio-list-item:nth-child(3n){
   margin-right: 0;
 }
