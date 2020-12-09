@@ -110,26 +110,22 @@ color: #000000;
 }
 .contact-list {
   display: flex;
+
 }
 .header .logo {
   margin-right: 93px;
 }
-.navigation-list-item:not(:last-child) {
+.navigation-list-item:not(:last-child),
+.contact-list-item:not(:last-child) {
   margin-right: 50px;
 }
 .header .contact {
   margin-left: auto;
 }
-.contact-header-mail {
-  margin-right: 50px;
-}
+
 .header .container {
 display: flex;
-width:1200px;
 align-items: center;
-margin: 0 auto;
-padding-left: 15px;
-padding-right: 15px;
 padding-top: 24px;
 padding-bottom: 24px;
 border-bottom: 1px solid #ECECEC;
@@ -185,23 +181,18 @@ border-bottom: 1px solid #ECECEC;
 /* =============== end title ===============*/
 
 /* =============== Features ===============*/
-.features-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+.features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.features {
+.features-list {
   display: flex;
 }
 .features-item {
   margin-right: 30px;
 }
-.features-item:nth-child(4n){
-  margin-right: 0;
+.features-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .features-title {
@@ -227,53 +218,40 @@ color: #757575;
 .our-task{
   margin-bottom: 97px;
 }
-.task-container {
-  width: 376px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 50px;
+.task .container {
+  margin-bottom: 50px;
 }
 .task-item {
   display: flex;
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.task-item-list{
-  margin-right: 30px;
-  width: 370px;
-  height: 294px;
-}
-.task-item-list:nth-last-child(n3){
-  margin-right: 30px;
 }
 
-.task{
+.task-item-list:not(:last-child) {
+margin-right: 30px;
+}
+
+.task-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1,166;
 letter-spacing: 0.03em;
 color: #212121;
+text-align: center;
+margin-bottom: 50px;
 }
 /* =============== end tasks ===============*/
 /* ===============team ===============*/
 
 .team-section {
   background: #F5F4FA;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
-.team-container {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+  
 .team-item {
   display: flex;
 }
 .team-item-list:not(:last-child) {
   margin-right: 30px;
-  padding-bottom: 211px;
 }
 .team-name {  
 font-weight: 500;
@@ -281,60 +259,67 @@ font-size: 16px;
 line-height:1,187;
 letter-spacing: 0.03em;
 color: #212121;
+text-align: center;
 margin-bottom: 10px;
 }
+
 .team-designation{
 font-weight: 400;
 font-size: 16px;
 line-height:1,187;
 letter-spacing: 0.03em;
 color: #757575;
+text-align: center;
+margin-bottom: 30px;
 }
-.title {
+.team-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-padding-bottom: 50px;
+margin-bottom: 50px;
 }
 .team-wrapper {
   padding: 30px 10px;
+  background-color: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-name {
-  margin-bottom: 10px;
-}
 /* =============== end team ===============*/
 /* ===============footer ===============*/
-.contact-footer-tel,
-.contact-footer-mail,
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-list-item {
+  flex-direction: column;
+  display: flex;
+}
 .contact-footer-map {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,714;
+  letter-spacing: 0.03em;
+  color: white;
+  margin-top: 20px;
+}
+
+.contact-footer-tel,
+.contact-footer-mail {
 font-weight: 400;
 font-size: 14px;
 line-height: 1,714;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
-}
-.logo-container {
-  margin-bottom: 20px;
-}
-.contact-footer-map {
-color: white;
-}
-.footer {
-background: #2F303A;
-}
-.footer-container{
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.footer-list-item {
 margin-top: 9px;
 margin-bottom: 9px;
 }
+
+
 /* ===============end footer===============*/
 
 /* ===============portfolio page ===============*/
