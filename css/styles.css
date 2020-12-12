@@ -25,10 +25,6 @@
   overflow: hidden;
 }
 
-ul{
-  list-style: none;
-}
-
 a{
   text-decoration: none;
 }
@@ -44,6 +40,7 @@ h6 {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 p {
@@ -384,7 +381,7 @@ color: #212121;
 .portfolio-description {
 font-weight: 400;
 font-size: 16px;
-line-height: 1,875;
+line-height: 1.875;
 letter-spacing: 0.03em;
 color: #757575;
 }
